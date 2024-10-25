@@ -1,0 +1,222 @@
+
+        body {
+
+            font-family: Poppins;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: #333;
+        }
+        
+        header {
+            display: flex;
+            background-color: white;
+            justify-content: space-between;
+            height:200px;
+            align-items: center;
+        }
+
+        .imagen {
+            align-items: center;
+        }
+
+
+        .Barradenavegacion {
+            text-align: center;
+            bottom: 0;
+            right: 0;
+            box-sizing: border-box;
+            font-size: 20px;
+            background-color: #00613A;
+        }
+
+        .Navegacion {
+              
+            margin: 10px;
+            color: white;
+            text-decoration-line: none;
+
+        }
+
+        .Navegacion:hover {
+            border: 5px solid rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+    
+
+        }
+
+        .XP {
+
+            background-color: #ffffff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px; 
+            
+        }
+
+        .XP-item{
+            margin-bottom: 20px;
+
+        }
+
+        .Instagram {
+            color: rgb(158, 55, 184);
+
+        }
+
+        .Instagram:hover{
+            color:rgb(0, 0, 0);
+            border: 5px solid rgb(158, 55, 184);
+
+        }
+
+        .Facebook {
+            color:  rgb(24, 119, 242)
+
+;
+        }
+        .Facebook:hover{
+            color: rgb(0,0,0);    
+            border: 5px solid rgb(24, 119, 242);
+        }
+
+        .Linkedin {
+            color: rgb(0, 115, 177);
+        }
+        .Linkedin:hover{
+            color: rgb(0, 0, 0);
+            border: 5px solid rgb(0, 115, 177);
+        }
+
+        .Tiktok {
+            color: rgb(254, 44, 85);
+        }
+        .Tiktok:hover{
+            color: rgb(0, 0, 0);
+            border: 5px solid rgb(254, 44, 85);
+        }
+
+        .Listadeobjetivos {
+            background-color: #ffffff;
+            margin: 30px 43px;
+            padding: 20px;
+            border-radius: 5px;
+            display:flexbox;
+        }
+
+        .XP {
+            background-color: #ffffff;
+            margin: 23px 43px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .Proyectos {
+            background-color: #ffffff;
+            margin: 28px 43px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .RedesSocialesCL {
+            background-color: #ffffff;
+            margin: 23px 43px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .PreguntasF {
+            background-color: #ffffff;
+            margin: 23px 43px;
+            padding: 20px;
+            border-radius: 5px;
+
+        }
+
+        .footer {
+            color: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #00613A;
+        }
+
+        img {
+
+            border-radius: 20px;
+            filter: drop-shadow(
+                0 0 10px rgba(0, 0, 0, .8)
+             );
+            
+            
+        
+
+        
+        }
+
+
+     
+        .switch {
+            font-size: 17px;
+            position: relative;
+            display: flex;
+            width: 3.5em;
+            height: 2em;
+            display: flex;
+            justify-content: flex-start;
+        }
+        
+        
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        
+        
+        .slider {
+            --background: #28096b;
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: var(--background);
+            transition: .5s;
+            border-radius: 30px;
+        }
+        
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 1.4em;
+            width: 1.4em;
+            border-radius: 50%;
+            left: 10%;
+            bottom: 15%;
+            box-shadow: inset 8px -4px 0px 0px #fff000;
+            background: var(--background);
+            transition: .5s;
+        }
+        
+        input:checked + .slider {
+            background-color: #522ba7;
+        }
+        
+        input:checked + .slider:before {
+            transform: translateX(100%);
+            box-shadow: inset 15px -4px 0px 15px #fff000;
+        }
+        
+
+        
+        
+        
+
+
+
+
+        
+
